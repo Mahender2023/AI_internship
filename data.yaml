@@ -1,0 +1,18 @@
+# Path to the dataset root directory
+path: combined_dataset  # Change this to the actual path where your combined data is
+
+# Paths to train, validation, and test images, RELATIVE to the 'path'
+train: combined_dataset/images/train # Path to training images
+val: combined_dataset/images/val     # Path to validation images
+test: combined_dataset/images/test   # Path to test images
+
+# Number of classes
+nc: 40  # Total number of classes, INCLUDING the background (if applicable)
+
+# Class names
+names: ['Cig_bud', 'Cig_pack', 'Disposable',
+        'E-Waste', 'E_waste', 'Garbage', 'Glass_bottle', 'Mask', 'Metal',
+        'Nylog_sting','Net', 'Paper', 'Plastic', 'Plastic_Bag', 'Plastic_Container',
+        'Plastic_Straw', 'Plastic_bottle','PET_Bottle','Plastic_Buoy','Plastic_Buoy_China','Plastic_ETC', 'Plastic_wraper', 'Tetrapack', 'Thermocol',
+        'Tin_box', 'can', 'contaminated_waste', 'diaper', 'diaper_sanitarypad', 'tin_box', 'top_view_waste',
+        'Dump', 'Glass', 'Rubber','Rope','Styrofoam_Box','Styrofoam_Buoy','Styrofoam_Piec','Ocean_Waste']

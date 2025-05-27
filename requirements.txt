@@ -1,0 +1,3 @@
+streamlit
+deep-translator
+google-cloud-translate
